@@ -33,7 +33,7 @@ router.post('/login', (req, res) => {
     })
 });
 
-function signToken(user) {
+function signToken(user) {  
   const payload = {
     user
   };
